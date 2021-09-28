@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+:root {
+    --Very_Dark_Magenta: hsl(300, 43%, 22%);
+    --Soft_Pink: hsl(333, 80%, 67%);
+    --Dark_Grayish_Magenta: hsl(303, 10%, 53%);
+    --Light_Grayish_Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+.man-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-size: 15px;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: auto;
+    padding: 10px;
+}
+.text {
+    text-align: center; 
+}
+h1 {
+  color:var(--Very_Dark_Magenta);
+  padding: 10px;  
+}
+
+p{
+    color:var(--Dark_Grayish_Magenta);
+    padding: 10px;  
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Light_Grayish_Magenta);
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+.star p {
+    color:var(--Very_Dark_Magenta);
+}
+.img{
+    background:url(../images/icon-star.svg) repeat-x;
+    width: 31%;
+    padding: 15px;
+    justify-content: space-between;
+    background-position: center;
+    
+    
+}
+
+
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--Very_Dark_Magenta);
+    color: var(--White);
+    padding: 20px;
+}
+
+.perfil {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 55px; 
+}
+
+.rosa {
+    color: var(--Soft_Pink);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  display: none;  
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
