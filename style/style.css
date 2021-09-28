@@ -18,7 +18,8 @@
     width: 100vw;
     height: 100vh;
     font-size: 15px;
-
+    background: url(/images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
 }
 .container {
     display: flex;
@@ -63,8 +64,6 @@ p{
     
 }
 
-
-
 .comentarios {
     display: flex;
     flex-direction: column;
@@ -90,7 +89,24 @@ p{
     color: var(--Soft_Pink);
 }
 
+@media (min-width:1366px) {
+    .man-container{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        font-size: 15px;
+        background: url(/images/bg-pattern-top-desktop.svg);
+        background-repeat: no-repeat;
+    }
 
+    .container {
+        display: flex;
+        max-width: 1440px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+}
 
 
 
